@@ -58,7 +58,7 @@ This sdk is published by JitPackTo include in your project :
     
     }
 
-##Tests
+## Tests
 To run tests you need to have your assembly-payments username and password: 
 
     ./gradlew clean test -DassemblyPayments.username=test@email.com -DassemblyPayments.password=Qwerty123$
