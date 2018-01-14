@@ -28,7 +28,7 @@ interface AssemblyPaymentsApi {
     @GET("/users")
     fun findUser(@Header("Authorization") auth: String,
                  @Query("limit") limit: String?,
-                 @Query("search") offset: String?,
+                 @Query("offset") offset: String?,
                  @Query("search") search: String?): Call<FindUserResponse>
 
     @POST("/token_auths")
